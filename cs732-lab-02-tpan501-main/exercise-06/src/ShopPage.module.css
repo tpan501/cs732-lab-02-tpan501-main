@@ -1,0 +1,19 @@
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  grid-auto-rows: auto;
+  gap: 10px;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
